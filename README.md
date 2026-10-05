@@ -127,6 +127,24 @@ Para testar GEO:
 python -m src.geo_demo
 ```
 
+Para testar Pub/Sub, abra **dois terminais**. No primeiro:
+
+```powershell
+python -m src.pubsub_demo subscribe
+```
+
+No segundo:
+
+```powershell
+python -m src.pubsub_demo publish
+```
+
+Para rodar os testes:
+
+```powershell
+pytest
+```
+
 ## Conceitos demonstrados
 
 | Conceito | Redis | Uso no projeto |
